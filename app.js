@@ -1,15 +1,15 @@
-document.getElementById('loan-form').addEventListener('submit', function (e) { 
-// hide results
-// test
-document.getElementById('results').style.display='none'
+document.getElementById('loan-form').addEventListener('submit', function (e) {
+    // hide results
+    // test
+    document.getElementById('results').style.display = 'none'
 
-// show loader 
+    // show loader 
 
-document.getElementById('loading').style.display='block'
-setTimeout(calcResults,2000) 
+    document.getElementById('loading').style.display = 'block'
+    setTimeout(calcResults, 2000)
 
-e.preventDefault()
- }) 
+    e.preventDefault()
+})
 
 
 
@@ -43,7 +43,7 @@ function calcResults() {
     } else {
         showError('please check your num')
     }
-    
+
 }
 
 function showError(error) {
@@ -67,4 +67,3 @@ function clearError() {
     document.querySelector('.alert').remove()
 }
 
- 
