@@ -1,6 +1,6 @@
 document.getElementById('loan-form').addEventListener('submit', function (e) { 
 // hide results
-
+// test
 document.getElementById('results').style.display='none'
 
 // show loader 
